@@ -65,6 +65,8 @@ hr {
 
 .img-full {
     min-width: 100%;
+    max-height: 600px;
+    object-fit: cover;
 }
 
 .brand-before,

@@ -94,6 +94,45 @@ hr {
     background-color: #8C1515;
 }
 
+.coach-profile {
+    max-height: 200px;
+    box-shadow: 0px 0px 10px #888888;
+    height: 100%;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+
+.hover-info {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    top: 0px;
+    left: 90px;
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    background-color: rgba(211, 211, 211, .7);
+}
+
+.hover-info:hover {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    top: 0px;
+    left: 95px;
+}
+
+.clearfix {
+    margin-bottom: 30px;
+}
+
 .enroll-btn:hover {
     color: #fff;
     background-color: #761212;

@@ -94,11 +94,10 @@ hr {
     background-color: #8C1515;
 }
 
-.coach-profile {
-    max-height: 200px;
+.coach-profile {+
     box-shadow: 0px 0px 10px #888888;
-    height: 100%;
-    width: auto;
+    height: 200px;
+    width: 200px;
     margin: auto;
     display: block;
 }
@@ -113,11 +112,16 @@ hr {
     width: 200px;
     height: 200px;
     opacity: 0;
-    background-color: rgba(211, 211, 211, .7);
+    background-color: rgba(211, 211, 211, .9);
 }
 
 .hover-info:hover {
     opacity: 1;
+}
+
+.hover-text {
+    margin-left: 5px;
+    font-size: 93%;
 }
 
 .overlay {
